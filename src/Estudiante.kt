@@ -30,4 +30,7 @@ fun main(args: Array<String>) {
     estudiante1.mostrarInfo()
     estudiante2.mostrarInfo()
     estudiante3.mostrarInfo()
+
+    //CAMBIAMOS EL PROMEDIO DE UN ESTUDIANTE ESPECIFICO
+    estudiante1.promedio = 1.0;
 }
