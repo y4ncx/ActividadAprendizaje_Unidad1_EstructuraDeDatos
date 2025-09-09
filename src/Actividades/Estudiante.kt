@@ -1,4 +1,6 @@
-data class Estudiante(
+package Actividades
+
+data class Estudiante       (
     var nombre : String,
     var edad : Int,
     var promedio : Double
