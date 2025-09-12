@@ -32,6 +32,10 @@ main()
     // Modificacion de alguna instancia. 
     // Se puede usar setPromedio, pero es mala practica porque trabajamos con structs, fuera mejor si trabajasemos con una clase
     estudiantes[1].promedio = 7.5;
-
+    cout << "\nInformacion actualizada de Marcelo: " << endl;
+    cout << "Nombre: " << estudiantes[1].nombre << endl;
+    cout << "Edad: " << estudiantes[1].edad << endl;
+    cout << "Promedio: " << estudiantes[1].promedio << endl;
+    
     return 0;
 }
