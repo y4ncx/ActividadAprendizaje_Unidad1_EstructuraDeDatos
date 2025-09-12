@@ -26,6 +26,12 @@ main()
         cout << "Edad: " << estudiantes[i].edad << endl;
         cout << "Promedio: " << estudiantes[i].promedio << endl;
 
-        return 0;
+        cout << "------------------------" << endl;
     }
+
+    // Modificacion de alguna instancia. 
+    // Se puede usar setPromedio, pero es mala practica porque trabajamos con structs, fuera mejor si trabajasemos con una clase
+    estudiantes[1].promedio = 7.5;
+
+    return 0;
 }
