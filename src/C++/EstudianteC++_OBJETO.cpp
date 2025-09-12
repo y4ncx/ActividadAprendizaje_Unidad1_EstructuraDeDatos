@@ -41,6 +41,21 @@ int main()
     Estudiante estudiante3("Said", 18, 7.8);
 
     // se crea un arreglo para cada estudiante
-    Estudiante estudiantes [3] = {estudiante1, estudiante2, estudiante3};
+    Estudiante estudiantes[3] = {estudiante1, estudiante2, estudiante3};
+
+    // se muestra la informacion de cada estudiante
+    cout << "Informacion de los estudiantes: " << endl
+         << endl;
+    for (int i = 0; i < 3; i++)
+    {
+        estudiantes[i].mostrarInformacion();
+        cout << "---------------------------------------" << endl;
+    }
+
+    // se modifica el promedio del segundo estudiante y lo muestra
+    estudiantes[1].setPromedio(9.0);
+    cout << "\nInformacion actualizada de Pablito: " << endl;
+    estudiantes[1].mostrarInformacion();
+
     return 0;
 }
